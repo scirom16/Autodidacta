@@ -30,8 +30,15 @@ else if (num2 > num1)
     {
         Console.WriteLine(num2 + " es el mayor");
     }
-    else
+    else if (num3 > num2)
     {
         Console.WriteLine(num3 + " es el mayor");
+    }
+}
+else
+{
+    if(num1==num2 && num2==num3)
+    {
+        Console.WriteLine("Los números ingresados son iguales");
     }
 }
