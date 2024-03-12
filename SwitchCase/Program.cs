@@ -1,10 +1,10 @@
-﻿using System.Timers;
+using System.Timers;
 
 string dia;
 
 Console.WriteLine("Dame un día: ");
 dia = Console.ReadLine();
-string mensaje = "Ha ingresado el día ";
+string mensaje = "Ha ingresado el día " + dia;
 
 switch (dia)
 {
